@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Cinematográfica</title>
+    <link rel="icon" href="img/favicon1.ico">
+
+    <style>
+        body {
+            background-color: #000000;
+        }
+
+        div {
+            background-color: white;
+            border: 1px solid black;
+            padding: 12px;
+            width: 80%;
+            margin: 0 auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        fieldset {
+            margin-bottom: 12px;
+        }
+
+        legend {
+            background-color: hsl(283, 100%, 81%);
+            padding: 5px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Contenedor">
+        <h2 style="color:#8521c7;border:3px solid #000000;text-align:center;">Encuesta de cine: Nominadas al Oscar 2022
+        </h2>
+
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+
+            <fieldset id="datos_personales" style="background-color:rgb(250, 215, 160);">
+
+                <legend style="text-align:center;">Datos Personales</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"> <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido"><br>
+                <br>
+                <label for="dni">DNI:</label>
+                <input type="text" name="dni" id="dni" maxlength="9"><br>
+                <br>
+                <label for="edad">Edad:</label>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+                <br>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option selected="selected">Femenino</option>
+                    <option>Masculino</option>
+                </select>
+            </fieldset>
+            <br>
+
+            <fieldset id="mejor película"
+                style="background-color:rgb(250, 215, 160);float: left; width: 46%; text-align: justify;">
+                <legend style="text-align:center;">Mejor Película</legend>
+                <input type="radio" name="pelicula" value="11"> Orgullo y prejuicio <br>
+                <img src="img/OrgulloPrejuicio.jpg" alt="Orgullo y prejuicio" width="200" height="300"><br>
+                <input type="radio" name="pelicula" value="22"> Call me by your name <br>
+                <img src="img/CallMeByYourName.jpg" alt="Call me by your name " width="200" height="300"><br>
+                <input type="radio" name="pelicula" value="33"> Lady Bird <br>
+                <img src="img/LadyBird.jpg" alt="Lady Bird " width="200" height="250"><br>
+                <input type="radio" name="pelicula" value="44">Star Wars: El ataque de los clones<br>
+                <img src="img/StarWars.jpg" alt="Star Wars: El ataque de los clones" width="200" height="250"><br>
+                <input type="radio" name="pelicula" value="55"> Flipped<br>
+                <img src="img/Flipped.jpg" alt="Flipped" width="200" height="250"><br>
+                <input type="radio" name="pelicula" value="66"> Amor, Boda y Azar <br>
+                <img src="img/AmorBodaAzar.jpg" alt="Amor, Boda y Azar" width="200" height="250"><br>
+
+
+            </fieldset>
+
+            <fieldset id="pelicula vista"
+                style="background-color:rgb(250, 215, 160); float: right; width: 48%; text-align: justify;">
+                <legend style="text-align:center;">Selecciona las películas que no hayas visto</legend>
+                <input type="radio" name="pelicula" value="11"> Dune <br>
+                <img src="img/peli7.jpg" alt="Dune" width="200" height="250"> <br>
+                <input type="radio" name="pelicula" value="22"> No mires arriba <br>
+                <img src="img/peli8.jpg" alt="No mires arriba" width="200" height="280"><br>
+                <input type="radio" name="pelicula" value="33"> El callejón de las almas perdidas <br>
+                <img src="img/peli9.jpg" alt="El callejón de las almas perdidas" width="200" height="250"><br>
+                <input type="radio" name="pelicula" value="44"> West Side Story <br>
+                <img src="img/peli10.jpg" alt="West Side Story" width="200" height="300"><br>
+                <input type="radio" name="pelicula" value="55"> Belfast <br>
+                <img src="img/peli11.jpg" alt="Belfast" width="200" height="250"><br>
+                <input type="radio" name="pelicula" value="66"> MORBIUS <br>
+                <img src="img/peli12.jpg" alt="MORBIUS" width="200" height="270"><br>
+
+            </fieldset>
+            <br>
+
+            <fieldset id="grupo_argumento" style="background-color:rgb(250, 215, 160);">
+
+                <legend style="text-align:center;">Argumento de la película que más te gusta</legend>
+                <textarea name="argumento" id="argumento" cols="60" rows="11"></textarea>
+            </fieldset>
+
+            <br>
+
+            <input type="reset" value="Borrar Formulario"
+                style="background-color:#8521c7; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white;">
+            <input type="submit" value="Enviar"
+                style="background-color: #8521c7; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; float: right;">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
