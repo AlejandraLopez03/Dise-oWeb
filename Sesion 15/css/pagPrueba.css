@@ -1,0 +1,145 @@
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 35px 1fr 250px 100px;
+    grid-template-areas: "my-header" "my-nav"  "my-aside" "my-footer";
+}
+
+header{
+    
+    grid-area: my-header;
+
+}
+
+main {
+    
+    font-family: arial;
+}
+
+footer{
+
+    grid-area: my-footer;
+    color: white;
+}
+#caja0 {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#caja1 {
+    width: 200px;
+    height: 100px;
+    float: left;
+
+}
+
+#buscar {
+    float: right;
+    font-size: smaller;
+    padding-top: 10px;
+
+}
+
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav {
+    width: 15%;
+    color: white;
+    color: darkgray;
+    font-style: oblique;
+    font-family: arial;
+    text-align: center;
+    padding: 5%;
+}
+
+.linea {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    padding-top: 50px;
+
+}
+
+.Barra {
+    padding-top: 40px;
+}
+
+.contenido {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 5%;
+    text-align: center;
+    width: 350px;
+    color: rgb(255, 255, 255);
+
+}
+
+.im {
+    height: 200px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.rev {
+    text-decoration: none;
+    color: white;
+}
+
+.sa {
+    font-size: small;
+}
+
+.s-con {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+.caja2 {
+    display: flex;
+}
+
+.caja30 {
+
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    
+
+}
+
+.caja50 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+
+}
+.foot{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.pie{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
