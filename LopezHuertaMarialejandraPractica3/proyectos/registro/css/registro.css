@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+}
+
+div {
+    background-color: rgb(92, 148, 54);
+    border-radius: 10px;
+    border: 2px solid rgb(1, 73, 5);
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+}
+#usuario{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#registro{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.boton{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right:auto; 
+}
+

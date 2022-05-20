@@ -1,0 +1,231 @@
+main {
+    color: rgb(0, 0, 0);
+    font-family: arial;
+}
+
+body {
+    background-color: rgb(124, 67, 118);
+    border-width: 0px;
+    margin: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+header {
+    background-color: rgb(124, 67, 118);
+}
+
+#ini {
+    color: white;
+    text-align: right;
+    font-size: small;
+
+    text-decoration: none;
+}
+
+
+#caja1 {
+    width: 140px;
+    height: 140px;
+    float: left;
+    padding-left: 3%;
+}
+
+#nombre {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 15%;
+    font-size: 40px;
+}
+
+#pagina {
+    color: white;
+    font-size: medium;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.Barra {
+    background-color: rgb(0, 0, 0);
+    padding-top: 0%;
+    text-align: center;
+}
+
+.linea {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 2%;
+}
+
+
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.im {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    padding-left: 17%;
+}
+.caja30{
+    display: flex;
+   
+}
+.caja300{
+    padding-left: 15%;
+    padding-right:15%;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+.caja80{
+    display: flex;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.nuevo{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    text-align: right;
+}
+.caja2 {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.contenido {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 0px;
+    margin: 3%;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.nombre {
+    text-align: left;
+    font-size: xx-large;
+    color: rgb(129, 79, 177);
+}
+
+.titulo {
+    text-align: left;
+    font-size: x-large;
+    color: rgb(201, 149, 197);
+}
+
+.parrafo {
+    text-align: justify;
+    font-size: medium;
+
+}
+
+.caja3 {
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+#par {
+    width: 150px;
+    height: 150px;
+    float: right;
+    padding-left: 15px;
+}
+
+
+aside {
+    background-color: rgb(82, 17, 134);
+    width: 20%;
+    float: right;
+    text-align: right;
+
+}
+
+.n {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding-top: 8%;
+    margin: 3%;
+    width: 210px;
+    height: 150px;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    padding-left: 8%;
+    padding-top: 8%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#lista {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-top: 3%;
+}
+
+.seccion {
+    text-align: left;
+    color: blue;
+}
+
+
+footer {
+    background-color: rgb(182, 105, 189);
+    height: 150px;
+    clear: left;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#caja5 {
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding-left: 3%;
+    padding-top: 1.5%;
+}
+
+.caja6 {
+    display: flex;
+    padding-left: 4%;
+}
+
+.pie {
+    padding: 25px;
+    display: flex;
+}
+
+.nombrem {
+    font-size: medium;
+    padding-top: 1px;
+    padding-bottom: 3%;
+    color: white;
+}
+
+nav,
+aside,
+section {
+    float: left;
+    height: 700px;
+}
